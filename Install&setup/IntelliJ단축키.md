@@ -79,3 +79,7 @@
 - [Ctrl] + [T]	: 프로젝트 업데이트
 - [Ctrl] + [Shift] + [K]	: Push
 - [Alt] + [`] 	: VCS 메뉴 팝업
+
+---
+- [Shift] + [Alt] + X : 사용중인 창 닫기
+- [Shift] + [Alt] + [Insert] + ([Shift] + [Alt]누른상태에서)클릭 : 다중커서
