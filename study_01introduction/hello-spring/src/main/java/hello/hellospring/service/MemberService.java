@@ -9,7 +9,12 @@ import java.util.Optional;
 
 public class MemberService {
 
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    private final MemberRepository memberRepository;
+
+    // memberRepository 외부에서 넣어줌(di)
+    public MemberService(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
 
     /**
      * 회원가입
@@ -30,6 +35,7 @@ public class MemberService {
                 });
     }
 
+    c>
     /**
      * 전체 회원 조회
      */
