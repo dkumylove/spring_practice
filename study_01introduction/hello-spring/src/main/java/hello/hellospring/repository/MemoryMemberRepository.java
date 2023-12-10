@@ -45,4 +45,9 @@ public class MemoryMemberRepository implements MemberRepository {
         // store.values() = Map에 있는 Member
         return new ArrayList<>(store.values());
     }
+
+    public void clearStore() {
+        store.clear();
+    }
+    
 }
