@@ -1,6 +1,7 @@
 package hello.hellospring.repository;
 
 import hello.hellospring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
@@ -8,6 +9,7 @@ import java.util.*;
  * 동시성 문제가 고려되어 있지 않음, 실무에서는 ConcurrentHashMap, AtomicLong 사용 고려
  */
 
+@Repository
 public class MemoryMemberRepository implements MemberRepository {
 
     // seve할 떄 저장할 곳 - 실무에서는 동시성 문제도해결해야함
@@ -49,5 +51,5 @@ public class MemoryMemberRepository implements MemberRepository {
     public void clearStore() {
         store.clear();
     }
-    
+
 }
