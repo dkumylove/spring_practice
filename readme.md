@@ -11,6 +11,7 @@
 #### 📖[06.231206](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231206.md) : 스프링/ Wrapper클래스/ Enum/ annotation
 #### 📖[07.231207](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231207.md) : 싱글톤/ 컴포넌트스캔/ 빈라이프사이클/ AOP/ 프록시/ 에너테이션/ 제네릭스
 #### 📖[08.231208](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231208.md) : AOP/ 프록시/ JDBC로 데이터베이스 연동/ JDBCTemplate/ 제네릭스
-#### 📖[09.231211]() : 
+#### 📖[09.231211]() : JDBCTemplate/ MyBatis/ 지네릭스/ 컬렉션
+#### 📖[10.231212]() : 
 #### 📖[]() : 
 
