@@ -12,9 +12,11 @@
 #### 📖[07.231207](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231207.md) : 싱글톤/ 컴포넌트스캔/ 빈라이프사이클/ AOP/ 프록시/ 에너테이션/ 제네릭스
 #### 📖[08.231208](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231208.md) : AOP/ 프록시/ JDBC로 데이터베이스 연동/ JDBCTemplate/ 제네릭스
 #### 📖[09.231211](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231211.md) : JDBCTemplate/ MyBatis/ 지네릭스/ 컬렉션
-#### 📖[10.231212](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231212.md) : 스프링 MVC/ 컬렉션 프레임워크(Collections Framework)
-#### 📖[11.231213]() : JAVA) 컬렉션 프레임워크(Collections Framework)/ 람다식
-#### 📖[12.231214]() : spring)타임리프(Thymeleaf)/ JAVA)람다식/ JAVA)Stream
+#### 📖[10.231212](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231212.md) : 스프링 MVC/  타임리프(Thymeleaf)/ 컬렉션 프레임워크(Collections Framework)
+#### 📖[11.231213](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231213.md) : JAVA) 컬렉션 프레임워크(Collections Framework)/ 람다식
+#### 📖[12.231214](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231214.md) : spring)타임리프(Thymeleaf)/ JAVA)람다식/ JAVA)Stream
 #### 📖[13.231215]() : 
+#### 📖[14.231218]() : 
+#### 📖[15.231219]() : 
+#### 📖[16.231220]() : 
 #### 📖[]() : 
-
