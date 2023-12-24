@@ -1,5 +1,8 @@
 package hello.core.member;
 
+/**
+ * 회원서비스 - 인터페이스
+ */
 public interface MemberService {
 
     // 회원 가입
