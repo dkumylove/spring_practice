@@ -18,7 +18,7 @@
 #### 📖[12.231214](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231214.md) : spring)타임리프(Thymeleaf)/ JAVA)람다식/ JAVA)Stream
 #### 📖[13.231215](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231215.md) : spring)MVC(요청 매핑, 커맨드 객체, 리다이렉트, 모델)(메시지, 커맨드 객체 검증, 에러코드, 프로퍼티타입)/ java)Stream
 #### 📖[14.231218](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231218.md) : spring)MVC(메시지, 커맨드 객체 검증, 에러코드, 프로퍼티타입)(세션, 인터셉터, 쿠키), 암호화, 로거 / java)Stream
-#### 📖[15.231219]() : 
+#### 📖[15.231219](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231219.md) : spring)MVC(세션, 인터셉터, 쿠키)(날짜 값 변환, 경로변수, 익셉션), MyBatis Date 설정/ java)Stream
 #### 📖[16.231220]() : 
 #### 📖[17.231221]() : 
 #### 📖[18.231222]() : 
