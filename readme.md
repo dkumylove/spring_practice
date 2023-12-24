@@ -21,5 +21,5 @@
 #### 📖[15.231219](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231219.md) : spring)MVC(세션, 인터셉터, 쿠키)(날짜 값 변환, 경로변수, 익셉션), MyBatis Date 설정/ java)Stream
 #### 📖[16.231220](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231220.md) : spring)MVC(날짜 값 변환, 경로변수, 익셉션), 파일업로드, 프로필 / springBoot) 설정/ java)Stream
 #### 📖[17.231221](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231221.md) : springBoot) 설정, 배포, 스케줄, jdbc / JSON/ java)IO
-#### 📖[18.231222]() : 
+#### 📖[18.231222](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231222.md) : springBoot) JSON, JPA, 설정/ Advanced REST Client) 설치 및 활용/ java)IO/ java)Object
 #### 📖[]() : 
