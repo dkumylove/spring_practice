@@ -24,7 +24,7 @@
 #### 📖[18.231222](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231222.md) : springBoot) JSON, JPA, 설정/ Advanced REST Client) 설치 및 활용/ java)IO/ java)Object
 #### 📖[19.231226](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231226.md) : springBoot) JPA/ / java)IO
 #### 📖[20.231227](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231227.md) : springBoot) JPA(쿼리메서드, 연관관계매핑, 지연로딩/ / java)IO
-#### 📖[21.231228]() : 
-#### 📖[]() :
+#### 📖[21.231228](https://github.com/dkumylove/spring_practice/blob/main/%EC%88%98%EC%97%85%EC%A0%95%EB%A6%AC/231228.md) : springBoot) JPA(지연로딩, 영속성 전이)/ spring security/  플젝세팅/ java)IO
+#### 📖[22.231229]() :
 #### 📖[]() : 
 
