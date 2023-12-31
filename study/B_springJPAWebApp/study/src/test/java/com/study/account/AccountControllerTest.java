@@ -10,8 +10,7 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @SpringBootTest
 @AutoConfigureMockMvc
@@ -25,7 +24,8 @@ class AccountControllerTest {
         mockMvc.perform(get("/sign-up")) // get 요청 /sign-up으로 했을 때
                 .andDo(print()) // 응답바디 출력
                 .andExpect(status().isOk()) // 상태코드 : 응답인지 확인
-                .andExpect(view().name("account/sign-up"));  // 뷰가 보이는지 확인
+                .andExpect(view().name("account/sign-up"))  // 뷰가 보이는지 확인
+                .andExpect(model().attributeExists("signUpForm"));  // signUpForm 있는지 확인
     }
 
 }
