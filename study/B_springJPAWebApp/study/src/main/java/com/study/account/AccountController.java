@@ -66,14 +66,25 @@ public class AccountController {
                 .studyUpdatedByWeb(true)
                 .build();
         Account newAccount = accountRepository.save(account);
+
+        // 토튼값 생성
         newAccount.generateEmailCheckToken();
+
+        // 이메일 전송
         SimpleMailMessage mailMessage = new SimpleMailMessage();
-        mailMessage.setTo(newAccount.getEmail());
-        mailMessage.setSubject("스터디올래, 회원 가입 인증");
+        mailMessage.setTo(newAccount.getEmail());  // 이메일 주소
+        mailMessage.setSubject("스터디올래, 회원 가입 인증"); // 이메일 제목
         mailMessage.setText("/check-email-token?token=" + newAccount.getEmailCheckToken() +
                 "&email=" + newAccount.getEmail());
-        javaMailSender.send(mailMessage);
+        javaMailSender.send(mailMessage);  // 작성한 메세지 보냄
 
+        /**
+         * mailMessage.setTo() : 이메일 주소
+         * mailMessage.setSubject() : 이메일 제목
+         * mailMessage.setText() : 이메일 본문
+         */
+
+        // TODO 회원가입 처리
         return "redirect:/";
     }
 

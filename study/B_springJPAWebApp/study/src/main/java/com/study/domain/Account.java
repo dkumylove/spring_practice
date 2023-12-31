@@ -61,6 +61,7 @@ public class Account {
 
     private boolean studyUpdatedByWeb;  // 스터디 업데이트 정보 웹 알림
 
+    // 이메일 체크를 위한 토큰 생성
     public void generateEmailCheckToken() {
         this.emailCheckToken = UUID.randomUUID().toString();
     }
