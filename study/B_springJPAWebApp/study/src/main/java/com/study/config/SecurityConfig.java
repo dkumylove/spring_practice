@@ -8,7 +8,7 @@ import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
-@Configuration
+@Configuration  // 설정클래스
 @EnableWebSecurity  // Security 설정을 직접하겠다는 의미
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 

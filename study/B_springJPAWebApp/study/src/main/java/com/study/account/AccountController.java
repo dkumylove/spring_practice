@@ -10,6 +10,7 @@ import org.springframework.validation.Errors;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.InitBinder;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import javax.validation.Valid;
@@ -19,8 +20,11 @@ import javax.validation.Valid;
 public class AccountController {
 
     private final SignUpFormValidator signUpFormValidator;
-    private final AccountRepository accountRepository;
-    private final JavaMailSender javaMailSender;
+    private final AccountService accountService;
+
+//    private final AccountRepository accountRepository;
+//    private final JavaMailSender javaMailSender;
+
 
     @InitBinder("signUpForm")
     public void initBinder(WebDataBinder webDataBinder) {
@@ -56,6 +60,7 @@ public class AccountController {
             return "account/sign-up";
         }
 
+        /*
         // 회원가입 처리
         Account account = Account.builder()
                 .email(signUpForm.getEmail())
@@ -83,6 +88,9 @@ public class AccountController {
          * mailMessage.setSubject() : 이메일 제목
          * mailMessage.setText() : 이메일 본문
          */
+
+        accountService.processNewAccount(signUpForm);
+
 
         // TODO 회원가입 처리
         return "redirect:/";
